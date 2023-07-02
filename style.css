@@ -86,17 +86,14 @@
     height: 3px;
     width: 0;
     position: absolute;
-    background-color: #911d91;
+    background-color: #ffffff;
     transition: width 1s ease-in-out;
 }
 
-@media screen and (max-width: 450px)
+@media screen and ( max-width: 450px)
 {
     .gameContainerrr{
         flex-wrap: wrap;
-    }
-    .gameInfo{
-        margin-top: 34px;
     }
     .gameInfo h1{
         font-size: 1.5rem;
@@ -105,4 +102,12 @@
         grid-template-rows: repeat(3, 30vw);
         grid-template-columns: repeat(3, 30vw);
     }
+    .line{
+    background-color: black;
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background-color: #ffffff;
+    transition: width 1s ease-in-out;
+}
 }
