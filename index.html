@@ -4,8 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" type="icon" href="logo.PNG">
-
+    
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -17,7 +16,7 @@
     
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="icon" type="icon" href="images/logo.png">
       <link rel="stylesheet" href="style.css">
     <title>Tic Tac Toe</title>
   </head>
@@ -99,30 +98,33 @@
 
 
 
-
+    
     <div class="gameContainerrr">
-      <div class="containerrr">
+      <div class="containerrr" >
         <div class="line"></div>
-      <div class="boxxx bt-0 bl-0"><span class="boxtext"></span></div>
-      <div class="boxxx bt-0"><span class="boxtext"></span></div>
-      <div class="boxxx bt-0 br-0"><span class="boxtext"></span></div>
-      <div class="boxxx bl-0"><span class="boxtext"></span></div>
-      <div class="boxxx"><span class="boxtext"></span></div>
-      <div class="boxxx br-0"><span class="boxtext"></span></div>
-      <div class="boxxx bl-0 bb-0"><span class="boxtext"></span></div>
-      <div class="boxxx bb-0"><span class="boxtext"></span></div>
-      <div class="boxxx bb-0 br-0"><span class="boxtext"></span></div>
+      <div id="w_draw" class="boxxx bt-0 bl-0"><span class="boxtext"></span></div>
+      <div id="w_draw" class="boxxx bt-0"><span class="boxtext"></span></div>
+      <div id="w_draw" class="boxxx bt-0 br-0"><span class="boxtext"></span></div>
+      <div id="w_draw" class="boxxx bl-0"><span class="boxtext"></span></div>
+      <div id="w_draw" class="boxxx"><span class="boxtext"></span></div>
+      <div id="w_draw" class="boxxx br-0"><span class="boxtext"></span></div>
+      <div id="w_draw" class="boxxx bl-0 bb-0"><span class="boxtext"></span></div>
+      <div id="w_draw" class="boxxx bb-0"><span class="boxtext"></span></div>
+      <div id="w_draw" class="boxxx bb-0 br-0"><span class="boxtext"></span></div>
     </div>
     <div class="gameInfo">
-      <h1 style="color: transparent;">Welcome to Tic Tac MyTicTacToe</h1>
+      <h1 class="draw">Draw Game</h1>
       <div>
         <span class="info">Turn for X</span>
-             <div class="imgbox">
-        <img src="excited.gif" alt="" />
+        <div class="imgbox">
+          <img src="excited.gif" class="image" id="image" alt="" />
+        </div>
+        <div class="imgbox">
+          <img src="sad.gif"  class="sad" id="sad" alt="" />
+        </div>
+        <button id="reset"  class="g_reset">Reset</button>
       </div>
-        <button id="reset"  onclick="resetbtn()">Reset</button>
-      </div>
- 
+   
     </div>
   </div>
 
@@ -150,11 +152,11 @@
 
 
 
-
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/main.js"></script>
     <script src="script.js"></script>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/main.js"></script>
+ 
   </body>
 </html>
