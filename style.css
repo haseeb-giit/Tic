@@ -92,7 +92,7 @@
 
 @media screen and (max-width: 950px)
 {
-    .gameContainer{
+    .gameContainerrr{
         flex-wrap: wrap;
     }
     .gameInfo{
@@ -101,8 +101,8 @@
     .gameInfo h1{
         font-size: 1.5rem;
     }
-    .container { 
-        grid-template-rows: repeat(3, 20vw);
-        grid-template-columns: repeat(3, 20vw);
+    .containerrr { 
+        grid-template-rows: repeat(3, 30vw);
+        grid-template-columns: repeat(3, 30vw);
     }
 }
